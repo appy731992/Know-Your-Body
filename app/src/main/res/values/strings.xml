@@ -1,0 +1,36 @@
+
+<resources>
+    <string name="app_name">Know Your Body</string>
+    <string name="title_activity_calculate">Calories Required</string>
+    <string name="title0">Calorie Know-How</string>
+    <string name="subtitle1">Calculate Calories</string>
+    <string name="title1">Calculate Required Calories</string>
+    <string name="subtitle2">Daily Intake</string>
+    <string name="subtitle3">To Build Muscle</string>
+    <string name="subtitle4">To Loose Weight</string>
+    <string name="subtitle5">3 Protein-Rich Meals</string>
+    <string name="button">Calculate</string>
+    <string name="text1">It is difficult to set absolute bottom calorie levels, because everyone has different body composition and activity levels.\n\nHealth authorities do set some baselines - \nThese are 1200 calories per day for women, and 1800 calories per day for men.\n\nThese absolute rules don\'t make sense - are you are sedentary person with little muscle mass? Or someone who is tall, muscular, and exercises a lot?\n\nAbsolute levels don\'t work - but do give us a starting point.\nTo maintain a healthy weight, you need to balance the amount of calories you consume through food and drink with the amount of calories you burn through physical activity.\n\nTo lose weight in a healthy way, you need to use more energy than you consume by:\n\n1. Eating a healthy, balanced diet with fewer calories\n2. Increasing your physical activity</string>
+    <string name="text2">Athletes should increase their total caloric intake by 250-500 calories per day to gain weight.\n\nSome experts even recommend a 1,000 caloric increase per day.Remember to consider activity level when calculating caloric intake. Athletes should aim to consume the proper ratios of nutrients.\n\nStudies have indicated that the timing of protein intake may be more beneficial for building lean muscle mass rather than quantity since the body can only absorb about 30 grams of protein at a time.\n\nAthletes should consume protein and carbohydrates within the first 30-60 minutes post training since the body is in an ideal state to repair and build.\n\nSufficient nutrient intake from clean food sources at multiple times throughout the day will provide the body with the fuel it needs to build lean hard muscle.</string>
+    <string name="text3">Athletes should decrease their total caloric intake by 500 calories per day to lose 1 pound in 1 week.\n\n The caloric deficit can be created from additional exercise, diet, or a combination of both. Remember to consider activity level when calculating caloric intake.\n\nAthletes should aim to consume the proper ratios of nutrients. Just cutting calories alone may reduce the number on the scale, but losing body fat while maintaining hard earned lean muscle mass is a science.\n\nWhen trying to lose body fat and obtain a lean healthy body it\'s important to maintain training intensity. Caloric intake should not drop so low that training severely suffers, metabolism slows, or the body becomes catabolic.\n\nLosing weight and reducing body fat is a gradual process- for lasting results aim to lose no more than 1-2 pounds per week through training and diet.</string>
+    <string name="text4">Calories 148\nFat 2.3g\nCarbs 15.2g\nProtein 16.6g</string>
+    <string name="text5">Calories 128\nFat 1.4g\nCarbs 3.6g\nProtein 25.3g</string>
+    <string name="text6">Calories 475\nFat 6g\nCarbs 60g\nProtein 45g</string>
+    <string name="checkbox1">Male</string>
+    <string name="checkbox2">Female</string>
+    <string name="height">Enter height</string>
+    <string name="weight">Enter weight</string>
+    <string name="age">Age</string>
+    <string name="result">Calories required by you are :\n Not calculated !</string>
+    <string name="title2">Daily Intake</string>
+    <string name="title2sub1">Maintain a healthy weight</string>
+    <string name="title3">Build Muscle</string>
+    <string name="title3sub1">Build muscle mass and gain weight</string>
+    <string name="title4">Lose Muscle</string>
+    <string name="title4sub1">Calories to lose weight</string>
+    <string name="title5">3 Protein-Rich Meals</string>
+    <string name="title5sub1">Protein and calories</string>
+    <string name="title5sub1sub1">1.Protein Cinnamon Pancakes</string>
+    <string name="title5sub1sub2">2.Chocolate Protein Pancakes</string>
+    <string name="title5sub1sub3">3.Banana Killa Vanilla Fritter</string>
+</resources>

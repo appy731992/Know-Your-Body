@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:src="@drawable/wallpaper3" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingBottom="@dimen/activity_vertical_margin"
+            tools:context="com.example.arpit.knowyourbody.MainActivity">
+
+            <TextView
+                style="@style/title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-light"
+                android:text="@string/title0" />
+
+            <TextView
+                style="@style/subtitle"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:background="#00BCD4"
+                android:fontFamily="sans-serif-condensed"
+                android:onClick="calculate"
+                android:text="@string/subtitle1" />
+
+            <TextView
+                style="@style/subtitle"
+                android:layout_height="wrap_content"
+                android:background="#FF9800"
+                android:fontFamily="sans-serif-condensed"
+                android:onClick="daily"
+                android:text="@string/subtitle2" />
+
+            <TextView
+                style="@style/subtitle"
+                android:layout_height="wrap_content"
+                android:background="#4CAF50"
+                android:fontFamily="sans-serif-condensed"
+                android:onClick="build"
+                android:text="@string/subtitle3" />
+
+            <TextView
+                style="@style/subtitle"
+                android:layout_height="wrap_content"
+                android:background="#FF5252"
+                android:fontFamily="sans-serif-condensed"
+                android:onClick="lose"
+                android:text="@string/subtitle4" />
+
+            <TextView
+                style="@style/subtitle"
+                android:layout_height="wrap_content"
+                android:background="#CDDC39"
+                android:fontFamily="sans-serif-condensed"
+                android:onClick="protein"
+                android:text="@string/subtitle5" />
+        </LinearLayout>
+    </RelativeLayout>
+</ScrollView>
