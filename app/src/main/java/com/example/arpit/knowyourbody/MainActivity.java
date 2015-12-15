@@ -1,13 +1,11 @@
 package com.example.arpit.knowyourbody;
 
 import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.util.Log;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 
 public class MainActivity extends AppCompatActivity {
-    private static final String TAG = "AppyActivity";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -15,81 +13,44 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
 
-    @Override
-    protected void onStart() {
-        super.onStart();
-        Log.i(TAG, "onStart");
-    }
-
-
-    @Override
-    protected void onResume() {
-        super.onResume();
-        Log.i(TAG, "onResume");
-    }
-
-
-    @Override
-    protected void onPause() {
-        super.onPause();
-        Log.i(TAG, "onPause");
-    }
-
-
-    @Override
-    protected void onStop() {
-        super.onStop();
-        Log.i(TAG, "onStop");
-    }
-
-
-    @Override
-    protected void onRestart() {
-        super.onRestart();
-        Log.i(TAG, "onRestart");
-    }
-
-
-    @Override
-    protected void onDestroy() {
-        super.onDestroy();
-        Log.i(TAG, "onDestroy");
-    }
-
-
-    @Override
-    protected void onSaveInstanceState(Bundle outState) {
-        super.onSaveInstanceState(outState);
-        Log.i(TAG, "onSaveInstanceState");
-    }
-
-
-    @Override
-    protected void onRestoreInstanceState(Bundle savedInstanceState) {
-        super.onRestoreInstanceState(savedInstanceState);
-        Log.i(TAG, "onRestoreInstanceState");
-    }
-
-    public void calculate(View view){
-        Intent intent = new Intent(this,CalculateActivity.class);
+    /**
+     * @calculate : It will take the user to the CalculateActivity.class file, In app the user will go to the Calculate Calories activity.
+     * This method  starts another activity.
+     */
+    public void calculate(View view) {
+        Intent intent = new Intent(this, CalculateActivity.class);
         startActivity(intent);
     }
-
-    public void daily(View view){
-        Intent intent = new Intent(this,DailyActivity.class);
+    /**
+     * @daily : It will take the user to the DailyActivity.class file, In app the user will go to the Daily Intake activity.
+     * This method  starts another activity.
+     */
+    public void daily(View view) {
+        Intent intent = new Intent(this, DailyActivity.class);
         startActivity(intent);
     }
-
-    public void build(View view){
-        Intent intent = new Intent(this,BuildActivity.class);
+    /**
+     * @build : It will take the user to the BuildActivity.class file, In app the user will go to the To Build Muscle activity.
+     * This method  starts another activity.
+     */
+    public void build(View view) {
+        Intent intent = new Intent(this, BuildActivity.class);
         startActivity(intent);
     }
-    public void lose(View view){
-        Intent intent = new Intent(this,LoseActivity.class);
+    /**
+     * @lose : It will take the user to the LoseActivity.class file, In app the user will go to the To Lose Weight activity.
+     * This method  starts another activity.
+     */
+    public void lose(View view) {
+        Intent intent = new Intent(this, LoseActivity.class);
         startActivity(intent);
     }
-    public void protein(View view){
-        Intent intent = new Intent(this,ProteinActivity.class);
+    /**
+     * @protein : It will take the user to the ProteinActivity.class file, In app the user will go to the 3 Protein-Rich Meals activity.
+     * This method  starts another activity.
+     */
+    public void protein(View view) {
+        Intent intent = new Intent(this, ProteinActivity.class);
         startActivity(intent);
     }
 }

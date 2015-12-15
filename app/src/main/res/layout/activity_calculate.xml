@@ -18,33 +18,32 @@
             android:fontFamily="sans-serif-light"
             android:text="@string/title1" />
 
-        <LinearLayout
+        <RadioGroup
             android:id="@+id/male_female"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_below="@id/title_calculate"
             android:layout_marginTop="16dp"
-            android:gravity="center">
+            android:gravity="center"
+            android:orientation="horizontal">
 
-            <CheckBox
-                android:id="@+id/checkBox1"
+            <RadioButton
+                android:id="@+id/male_radiobutton"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginEnd="16dp"
-                android:layout_marginRight="16dp"
+                android:layout_marginRight="8dp"
                 android:gravity="center"
-                android:text="@string/checkbox1"
+                android:text="@string/male"
                 android:textColor="#727272" />
 
-            <CheckBox
-                android:id="@+id/checkBox2"
+            <RadioButton
+                android:id="@+id/female_radiobutton"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="16dp"
-                android:layout_marginStart="16dp"
-                android:text="@string/checkbox2"
+                android:layout_marginLeft="8dp"
+                android:text="@string/female"
                 android:textColor="#727272" />
-        </LinearLayout>
+        </RadioGroup>
 
         <LinearLayout
             android:id="@+id/height"
@@ -76,7 +75,7 @@
                 android:layout_marginLeft="16dp"
                 android:layout_marginStart="16dp"
                 android:layout_weight="1"
-                android:text="ft"
+                android:text="@string/foot"
                 android:textColor="#212121" />
 
             <EditText
@@ -92,7 +91,7 @@
                 android:layout_marginLeft="16dp"
                 android:layout_marginStart="16dp"
                 android:layout_weight="1"
-                android:text="in"
+                android:text="@string/inches"
                 android:textColor="#212121" />
         </LinearLayout>
 
@@ -124,23 +123,23 @@
                 android:layout_weight="2"
                 android:inputType="numberDecimal" />
 
-            <CheckBox
-                android:id="@+id/checkBox3"
+            <RadioGroup
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="16dp"
-                android:layout_marginStart="16dp"
-                android:layout_weight="0.5"
-                android:text="Kg"
-                android:textColor="#727272" />
+                android:orientation="horizontal">
 
-            <CheckBox
-                android:id="@+id/checkBox4"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="0.5"
-                android:text="lbs"
-                android:textColor="#727272" />
+                <RadioButton
+                    android:id="@+id/kg_radio_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/kilogram" />
+
+                <RadioButton
+                    android:id="@+id/lbs_radio_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/pound" />
+            </RadioGroup>
         </LinearLayout>
 
         <LinearLayout
@@ -190,7 +189,7 @@
             android:layout_below="@id/result"
             android:layout_centerHorizontal="true"
             android:background="#FF4081"
-            android:onClick="calculate"
+            android:onClick="calculateButton"
             android:paddingLeft="16dp"
             android:paddingRight="16dp"
             android:text="@string/button"

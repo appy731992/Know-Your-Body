@@ -7,7 +7,7 @@
     <string name="title1">Calculate Required Calories</string>
     <string name="subtitle2">Daily Intake</string>
     <string name="subtitle3">To Build Muscle</string>
-    <string name="subtitle4">To Loose Weight</string>
+    <string name="subtitle4">To Lose Weight</string>
     <string name="subtitle5">3 Protein-Rich Meals</string>
     <string name="button">Calculate</string>
     <string name="text1">It is difficult to set absolute bottom calorie levels, because everyone has different body composition and activity levels.\n\nHealth authorities do set some baselines - \nThese are 1200 calories per day for women, and 1800 calories per day for men.\n\nThese absolute rules don\'t make sense - are you are sedentary person with little muscle mass? Or someone who is tall, muscular, and exercises a lot?\n\nAbsolute levels don\'t work - but do give us a starting point.\nTo maintain a healthy weight, you need to balance the amount of calories you consume through food and drink with the amount of calories you burn through physical activity.\n\nTo lose weight in a healthy way, you need to use more energy than you consume by:\n\n1. Eating a healthy, balanced diet with fewer calories\n2. Increasing your physical activity</string>
@@ -16,8 +16,6 @@
     <string name="text4">Calories 148\nFat 2.3g\nCarbs 15.2g\nProtein 16.6g</string>
     <string name="text5">Calories 128\nFat 1.4g\nCarbs 3.6g\nProtein 25.3g</string>
     <string name="text6">Calories 475\nFat 6g\nCarbs 60g\nProtein 45g</string>
-    <string name="checkbox1">Male</string>
-    <string name="checkbox2">Female</string>
     <string name="height">Enter height</string>
     <string name="weight">Enter weight</string>
     <string name="age">Age</string>
@@ -33,4 +31,10 @@
     <string name="title5sub1sub1">1.Protein Cinnamon Pancakes</string>
     <string name="title5sub1sub2">2.Chocolate Protein Pancakes</string>
     <string name="title5sub1sub3">3.Banana Killa Vanilla Fritter</string>
+    <string name="kilogram">kg</string>
+    <string name="pound">lbs</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="inches">in</string>
+    <string name="foot">ft</string>
 </resources>
