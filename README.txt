@@ -1,5 +1,5 @@
 Know your Body
-On starting project will initially show the parent acitivity : calorie Know-how
+On starting this project will initially show the parent acitivity : calorie Know-how
 
 It will have some subheadings related to calculate calorie, Daily Intake , To build Muscle, To lose Weight and 3 Proteing rich meals.
 
