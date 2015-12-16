@@ -46,12 +46,12 @@ public class CalculateActivity extends Activity {
         EditText weightText = (EditText) findViewById(R.id.editText3);
         String weightString = weightText.getText().toString();
         if (weightString.matches("")) {
-            Toast.makeText(this, "Please enter weight", Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, R.string.enterWeight, Toast.LENGTH_SHORT).show();
             return 0;
         } else {
             double weightNumber = Float.parseFloat(weightString);
             if (!kilogram && !lbs){
-                Toast.makeText(this, "Please check either Kg or lbs", Toast.LENGTH_SHORT).show();
+                Toast.makeText(this, R.string.checkKgorLbs, Toast.LENGTH_SHORT).show();
                 return 0;
             } else if (lbs) {
                 weight = (weightNumber / 2.2);
@@ -77,7 +77,7 @@ public class CalculateActivity extends Activity {
         EditText heightinch = (EditText) findViewById(R.id.editText2);
         String in = heightinch.getText().toString();
         if (ft.matches("") || (in.matches(""))) {
-            Toast.makeText(this, "Please enter height : ft and inch", Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, R.string.enterHeight, Toast.LENGTH_SHORT).show();
             return 0;
         } else {
             int foot = Integer.parseInt(ft);
@@ -97,7 +97,7 @@ public class CalculateActivity extends Activity {
         EditText age = (EditText) findViewById(R.id.editText4);
         String agestring = age.getText().toString();
         if (agestring.matches("")) {
-            Toast.makeText(this, "Please enter age", Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, R.string.enterAge, Toast.LENGTH_SHORT).show();
             return 0;
         } else {
             agenum = Integer.parseInt(agestring);
@@ -121,14 +121,14 @@ public class CalculateActivity extends Activity {
         RadioButton femaleRadioButton = (RadioButton) findViewById(R.id.female_radiobutton);
         Boolean female = femaleRadioButton.isChecked();
         if (!male && !female) {
-            Toast.makeText(this, "Please check either Male or Female", Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, R.string.maleFemale, Toast.LENGTH_SHORT).show();
             return null;
         } else if (female) {
             calories = (10 * weight) + (6.25 * height) - (5 * age) - 161;
         } else if (male) {
             calories = 5 + (10 * weight) + (6.25 * height) - (5 * age);
         }
-         return "Calories required by you are :\n" + Math.round(calories) + " Kcal per day";
+         return getString(R.string.caloriesrequired) + Math.round(calories) + getString(R.string.Kcal);
     }
 
 }

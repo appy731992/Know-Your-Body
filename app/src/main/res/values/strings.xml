@@ -37,4 +37,11 @@
     <string name="female">Female</string>
     <string name="inches">in</string>
     <string name="foot">ft</string>
+    <string name="caloriesrequired">Calories required by you are :\n</string>
+    <string name="Kcal">" Kcal per day"</string>
+    <string name="maleFemale">Please check either Male or Female</string>
+    <string name="enterAge">Please enter age</string>
+    <string name="enterHeight">Please enter height : ft and inch</string>
+    <string name="checkKgorLbs">Please check either Kg or lbs</string>
+    <string name="enterWeight">Please enter weight</string>
 </resources>
