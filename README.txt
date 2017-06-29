@@ -1,6 +1,6 @@
 Know your Body
 
-![Alt text](Know-Your-Body/Screenshot_2015-12-16-01-31-34.png)
+![Screenshot](https://raw.github.com/arpit731992/Know-Your-Body/Screenshot_2015-12-16-01-31-34.png)
 
 On starting this project will initially show the parent acitivity : calorie Know-how
 
