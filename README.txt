@@ -1,6 +1,6 @@
 Know your Body
 
-![Alt text](/relative/path/to/img.jpg?raw=true "Optional Title")
+![Alt text](Know-Your-Body/Screenshot_2015-12-16-01-31-34.png?raw=true "Optional Title")
 
 On starting this project will initially show the parent acitivity : calorie Know-how
 
